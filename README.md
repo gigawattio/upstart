@@ -12,11 +12,16 @@ Created by [Jay Taylor](http://jaytaylor.com/) and used by [Gigawatt](http://gig
 
 ### Requirements
 
-* Go version 1.1 or newer
+* Go version 1.3 or newer
 
 ### Running the test suite
 
     go test ./...
+
+## TODO
+
+* [ ] Fix upstart serviceifier to pickup and preserve flags.
+* [ ] Update upstart serviceifier refuse to install as root?
 
 #### License
 
