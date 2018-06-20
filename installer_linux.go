@@ -12,7 +12,7 @@ import (
 	"runtime"
 	"strings"
 
-	log "github.com/Sirupsen/logrus"
+	log "github.com/sirupsen/logrus"
 )
 
 type ErrorProducer func(config UpstartConfig) error // Installation steps are each [possible] error producers.
